@@ -317,3 +317,14 @@ body {
 .jacket {
   flex: 1;
 }
+.visual-box2 {
+  position: relative;
+  width: 100vw;
+  top: 550px;
+  right: 1550px;
+}
+
+.visual-img2 {
+  background-size: cover;
+  object-fit: cover;
+}
