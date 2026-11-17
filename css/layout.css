@@ -320,11 +320,96 @@ body {
 .visual-box2 {
   position: relative;
   width: 100vw;
-  top: 550px;
-  right: 1550px;
+}
+.visual-list2 .visual06 {
+  margin-bottom: 20px;
+  height: 900px;
+  background-image: url(../images/visual06.jpg);
+}
+.visual07 .video {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  height: 900px;
+  margin-bottom: 20px;
+}
+.visual07 .text2 {
+  position: absolute;
+  top: 60%;
+  left: 150px;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.visual-list2 .visual08 {
+  margin-bottom: 30px;
+  height: 900px;
+  background-image: url(../images/visual07.jpg);
+}
+.text1 {
+  margin-left: 150px;
+  position: relative;
+  top: 70%;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+.text2 {
+  position: relative;
+  top: 65%;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
-.visual-img2 {
+.text3 {
+  position: relative;
+  top: 70%;
+  margin-left: 150px;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+.text1 h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.text2 h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.text3 h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.text1 p {
+  margin-top: 15px;
+  font-weight: 300;
+}
+.text2 p {
+  margin-top: 15px;
+  font-weight: 300;
+}
+.text3 p {
+  margin-top: 15px;
+  font-weight: 300;
+}
+.text3 .tag {
+  margin-bottom: 25px;
+  width: 90px;
+  height: 30px;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.visual-list2 .background1 {
+  margin-bottom: 30px;
+  height: 850px;
+  background-image: url(../images/background1.webp);
+  background-repeat: no-repeat;
   background-size: cover;
-  object-fit: cover;
+}
+.visual-list2 .background2 {
+  margin-bottom: 30px;
+  height: 850px;
+  background-image: url(../images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
